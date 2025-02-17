@@ -12,7 +12,7 @@ Feature: Counter Application
     Then the counter should display 0
 
   Scenario: Reset the counter
-    Given the counter is at 5
+    Given the counter starts at 5
     When I press the "Reset" button
     Then the counter should display 0
 
